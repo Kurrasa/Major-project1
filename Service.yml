@@ -12,6 +12,8 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    config:
+    import: configserver:
     
 management:
   endpoints:
