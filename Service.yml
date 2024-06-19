@@ -13,8 +13,7 @@ spring:
       ddl-auto: create
     show-sql: true
 
-  config:
-    import: configserver:http://localhost:2222/
+ 
 
 management:
   endpoints:
