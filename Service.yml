@@ -15,11 +15,7 @@ spring:
    config:
     import: configserver: 
     
-  cloud:
-    config:
-      enabled: true 
-      import-check:
-        enabled: true 
+ 
     
 management:
   endpoints:
