@@ -12,8 +12,14 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+   config:
+    import: configserver: 
+    
+  cloud:
     config:
-    import: configserver:
+      enabled: true 
+      import-check:
+        enabled: true 
     
 management:
   endpoints:
