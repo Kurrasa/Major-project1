@@ -12,8 +12,10 @@ spring:
     hibernate:
       ddl-auto: create
     show-sql: true
+    profiles:
+       active: dev
+    
 
- 
 
 management:
   endpoints:
