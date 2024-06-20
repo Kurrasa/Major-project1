@@ -4,14 +4,15 @@ spring:
       client:
         url: http://localhost:1111/
   datasource:
-   password: PHW#84#jeor
+    driver-class-name: com.mysql.cj.jdbc.Driver  
+    password: PHW#84#jeor
     url: jdbc:mysql://localhost:3306/sbms39
     username: root
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
-   
+
 management:
   endpoints:
     web:
