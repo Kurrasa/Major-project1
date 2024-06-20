@@ -4,19 +4,14 @@ spring:
       client:
         url: http://localhost:1111/
   datasource:
-    username: root
-    password: PHW#84#jeor
+   password: PHW#84#jeor
     url: jdbc:mysql://localhost:3306/sbms39
-
+    username: root
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
-    profiles:
-       active: dev
-    
-
-
+   
 management:
   endpoints:
     web:
