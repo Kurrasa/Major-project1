@@ -19,6 +19,5 @@ management:
       exposure:
         include: '*'
 
-server:
-  port: 9090
+
 
