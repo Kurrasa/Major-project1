@@ -22,7 +22,7 @@ management:
 server:
  port: 8081
 
-# Application messages goes here
+
 auth-service:
  messages: 
   userReg: User Created
