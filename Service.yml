@@ -1,3 +1,5 @@
+server:
+     port: 8081
 spring:
   boot:
     admin:
@@ -18,8 +20,7 @@ management:
     web:
       exposure:
         include: '*'
-server:
-     port: 8081
+
         
 
 
