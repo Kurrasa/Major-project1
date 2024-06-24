@@ -23,7 +23,7 @@ server:
  port: 8081
 
 # Application messages goes here
-auth-service:
+Auth-Service:
  messages: 
   userReg: User Created
   userRegErr: User Creation Failed
