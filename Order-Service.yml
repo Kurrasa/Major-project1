@@ -23,7 +23,7 @@ server:
  port: 8085
 
 
-orders-service:
+order-service:
   messages:
     addOrders: Orders Added Successfully
     addOrdersErr: Failed to add orders
